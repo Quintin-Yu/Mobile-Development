@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Higher Lower</string>
+
+    <!--Buttons-->
+    <string name="lower_button">Lower</string>
+    <string name="equal_button">Equal</string>
+    <string name="higher_button">Higher</string>
+
+    <!--Text-->
+    <string name="title">Guess if the next throw is going to be lower, equal or higher.</string>>
+    <string name="correct">Correct!</string>
+    <string name="incorrect">Incorrect!</string>
+    <string name="last_throw">Last Throw: %d</string>
+
+    <!--Images-->
+    <string name="dice">Dice</string>
+</resources>
