@@ -10,4 +10,7 @@
 
     <!--Buttons-->
     <string name="confirmbtn">Confirm</string>
+
+    <!--Toast Message-->
+    <string name="ToastMessage">The correct number of answers is: </string>
 </resources>
