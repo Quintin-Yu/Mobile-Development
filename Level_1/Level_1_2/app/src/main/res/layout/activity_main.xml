@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainLogicaApp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/submitbutton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/confirmbtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!--first row-->
+    <TextView
+        android:id="@+id/S1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/true_state"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@id/Q11"
+        app:layout_constraintEnd_toStartOf="@id/S2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView" />
+
+    <TextView
+        android:id="@+id/S2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/false_state"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@id/Q12"
+        app:layout_constraintEnd_toStartOf="@id/S3"
+        app:layout_constraintStart_toEndOf="@+id/S1"
+        app:layout_constraintTop_toBottomOf="@id/textView" />
+
+    <!--Second row-->
+    <TextView
+        android:id="@+id/S3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/AAboveB"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@id/A1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/S2"
+        app:layout_constraintTop_toBottomOf="@id/textView" />
+
+    <TextView
+        android:id="@+id/Q11"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/true_state"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@id/Q21"
+        app:layout_constraintEnd_toStartOf="@id/Q12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/S1" />
+
+    <TextView
+        android:id="@+id/Q12"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/true_state"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@id/Q22"
+        app:layout_constraintEnd_toStartOf="@id/A1"
+        app:layout_constraintStart_toEndOf="@+id/Q11"
+        app:layout_constraintTop_toBottomOf="@id/S2" />
+
+    <EditText
+        android:id="@+id/A1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/TrueOrFalse"
+        android:autofillHints="@string/TrueOrFalse"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@id/A2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/Q12"
+        app:layout_constraintTop_toBottomOf="@id/S3" />
+
+    <!--Third row-->
+    <TextView
+        android:id="@+id/Q21"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/true_state"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@id/Q31"
+        app:layout_constraintEnd_toStartOf="@id/Q22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Q11" />
+
+    <TextView
+        android:id="@+id/Q22"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/false_state"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@id/Q32"
+        app:layout_constraintEnd_toStartOf="@id/A2"
+        app:layout_constraintStart_toEndOf="@+id/Q21"
+        app:layout_constraintTop_toBottomOf="@id/Q12" />
+
+    <EditText
+        android:id="@+id/A2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/TrueOrFalse"
+        android:autofillHints="@string/TrueOrFalse"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@id/A3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/Q22"
+        app:layout_constraintTop_toBottomOf="@id/A1" />
+
+    <!--Fourth row-->
+    <TextView
+        android:id="@+id/Q31"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/false_state"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@id/Q41"
+        app:layout_constraintEnd_toStartOf="@id/Q32"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Q21" />
+
+    <TextView
+        android:id="@+id/Q32"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/true_state"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@id/Q42"
+        app:layout_constraintEnd_toStartOf="@id/A3"
+        app:layout_constraintStart_toEndOf="@+id/Q31"
+        app:layout_constraintTop_toBottomOf="@id/Q22" />
+
+    <EditText
+        android:id="@+id/A3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/TrueOrFalse"
+        android:autofillHints="@string/TrueOrFalse"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@id/A4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/Q32"
+        app:layout_constraintTop_toBottomOf="@id/A2" />
+
+    <!--Fifth row-->
+    <TextView
+        android:id="@+id/Q41"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/false_state"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@id/submitbutton"
+        app:layout_constraintEnd_toStartOf="@id/Q42"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Q31" />
+
+    <TextView
+        android:id="@+id/Q42"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/false_state"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@id/submitbutton"
+        app:layout_constraintEnd_toStartOf="@id/A4"
+        app:layout_constraintStart_toEndOf="@+id/Q41"
+        app:layout_constraintTop_toBottomOf="@id/Q32" />
+
+    <EditText
+        android:id="@+id/A4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/TrueOrFalse"
+        android:autofillHints="@string/TrueOrFalse"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@id/submitbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/Q42"
+        app:layout_constraintTop_toBottomOf="@id/A3" />
+
+
+</android.support.constraint.ConstraintLayout>
