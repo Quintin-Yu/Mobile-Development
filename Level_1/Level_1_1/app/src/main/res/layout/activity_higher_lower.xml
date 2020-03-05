@@ -7,13 +7,31 @@
     tools:context=".HigherLowerActivity">
 
     <Button
+        android:id="@+id/Lower"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/lower_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/Equal"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
         android:id="@+id/Equal"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/equal_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/Higher"
-        app:layout_constraintStart_toEndOf="@id/Lower"/>
+        app:layout_constraintStart_toEndOf="@id/Lower" />
+
+    <Button
+        android:id="@+id/Higher"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/higher_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/Equal" />
 
     <TextView
         android:id="@+id/MainText"
@@ -50,22 +68,4 @@
         app:layout_constraintTop_toBottomOf="@+id/DiceDisplay"
         app:layout_constraintVertical_bias="0.118" />
 
-    <Button
-        android:id="@+id/Lower"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="@string/lower_button"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@id/Equal"
-        app:layout_constraintStart_toStartOf="parent"
-        />
-
-    <Button
-        android:id="@+id/Higher"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="@string/higher_button"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@id/Equal"/>
 </android.support.constraint.ConstraintLayout>

@@ -1,0 +1,16 @@
+<resources>
+
+    <!--Text-->
+    <string name="app_name">Logica App</string>
+    <string name="title">Conjunction (AND)</string>
+    <string name="TrueOrFalse">Enter T or F</string>
+    <string name="true_state">T</string>
+    <string name="false_state">F</string>
+    <string name="AAboveB">A^B</string>
+
+    <!--Buttons-->
+    <string name="confirmbtn">Confirm</string>
+
+    <!--Toast Message-->
+    <string name="ToastMessage">The correct number of answers is: </string>
+</resources>
