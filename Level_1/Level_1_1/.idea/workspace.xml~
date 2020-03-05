@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c1ed420e-8d36-455f-b36b-93f74a44784d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/Demo/PictureQuiz/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/Demo/PictureQuiz/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/Demo/PictureQuiz/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/Demo/PictureQuiz/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/Demo/PictureQuiz/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/Demo/PictureQuiz/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/Demo/PictureQuiz/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/Demo/PictureQuiz/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/Demo/PictureQuiz/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/Demo/PictureQuiz/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/Demo/PictureQuiz/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/Demo/PictureQuiz/app/src/androidTest/java/com/example/picturequiz/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/Demo/PictureQuiz/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/Demo/PictureQuiz/app/src/main/java/com/example/picturequiz/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/Demo/PictureQuiz/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/Demo/PictureQuiz/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/Demo/PictureQuiz/app/src/main/res/drawable/image1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/Demo/PictureQuiz/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/Demo/PictureQuiz/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/Demo/PictureQuiz/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/Demo/PictureQuiz/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/Demo/PictureQuiz/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/Demo/PictureQuiz/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/Demo/PictureQuiz/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/Demo/PictureQuiz/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/Demo/PictureQuiz/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/Demo/PictureQuiz/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/Demo/PictureQuiz/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/Demo/PictureQuiz/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/Demo/PictureQuiz/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/Demo/PictureQuiz/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/Demo/PictureQuiz/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/Demo/PictureQuiz/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/Demo/PictureQuiz/app/src/test/java/com/example/picturequiz/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/Demo/PictureQuiz/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/Demo/PictureQuiz/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/Demo/PictureQuiz/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/Demo/PictureQuiz/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/Demo/PictureQuiz/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/Demo/PictureQuiz/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/Demo/PictureQuiz/settings.gradle" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1YiHi4F0YZygFwzbH7PcxDA4HuS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1ed420e-8d36-455f-b36b-93f74a44784d" name="Default Changelist" comment="" />
+      <created>1583418618095</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583418618095</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
