@@ -13,6 +13,9 @@ class AddActivity : AppCompatActivity() {
         setContentView(R.layout.activity_add)
         setSupportActionBar(toolbar)
 
+        // Get a support ActionBar corresponding to this toolbar and enable the Up button
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
         fab.setOnClickListener { view ->
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
