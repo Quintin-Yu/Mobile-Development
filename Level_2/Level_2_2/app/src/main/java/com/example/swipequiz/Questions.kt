@@ -1,4 +1,5 @@
 package com.example.swipequiz
 
-class Questions {
-}
+data class Questions (
+    val questionText : String
+)
