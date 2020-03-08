@@ -6,4 +6,6 @@
     <string name="first_name">First Name</string>
     <string name="open_picture_gallery">Open Picture Gallery</string>
     <string name="profile_app">Profile App</string>
+    <string name="name">Quintin Yu</string>
+    <string name="my_description">My description</string>
 </resources>
