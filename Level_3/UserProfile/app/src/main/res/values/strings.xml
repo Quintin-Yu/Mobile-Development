@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">User Profile</string>
     <string name="user_profile">User Profile</string>
-    <string name="confirm">confirm</string>
     <string name="open_picture_gallery">OPEN PICTURE GALLERY</string>
+    <string name="confirm">Confirm</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="description">Discription</string>
 </resources>
