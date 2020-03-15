@@ -6,5 +6,5 @@ import kotlinx.android.parcel.Parcelize
 @Parcelize
 data class Portal (
     var title: String,
-    var ulr: String
+    var url: String
 ) : Parcelable
