@@ -12,4 +12,6 @@
     <string name="add_portal">ADD PORTAL</string>
     <string name="title">Title</string>
     <string name="url">URL</string>
+    <string name="fillerurl">FillerUrl</string>
+    <string name="fillertitle">fillerTitle</string>
 </resources>
