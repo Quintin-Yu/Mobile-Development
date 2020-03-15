@@ -20,13 +20,13 @@ class PortalAdapter(private val portals: List<Portal>) : RecyclerView.Adapter<Po
             itemView.tvTitleAdapter.text = portal.title
             itemView.tvUrlAdapter.text = portal.url
             itemView.setOnClickListener{
-                val uris = Uri.parse(portal.url)
-                val intents = Intent(Intent.ACTION_VIEW, uris)
-                val b = Bundle()
-                b.putBoolean("new_window", true)
-                intents.putExtras(b)
+                val url = Uri.parse(portal.url)
+                val intent = Intent(Intent.ACTION_VIEW, url)
+                val bundle = Bundle()
+                bundle.putBoolean("new_window", true)
+                intent.putExtras(bundle)
                 var context: Context = itemView.context
-                context.startActivity(intents)
+                context.startActivity(intent)
             }
         }
     }
