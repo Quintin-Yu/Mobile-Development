@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Rock, Paper, Scissors</string>
+    <string name="delete_match_history">This button deletes all the match history</string>
+    <string name="return_home">This button returns home</string>
+    <string name="v_s">V.S.</string>
+    <string name="press_to_play_rock">This button is pressed then you want to play rock</string>
+    <string name="press_to_play_paper">This button is pressed then you want to play paper</string>
+    <string name="press_to_play_scissor">This button is pressed then you want to play scissor</string>
+    <string name="player">Player</string>
+    <string name="computer">Computer</string>
+    <string name="welcome">Welcome</string>
+    <string name="instructions">Instructions: Select rock, paper, or scissors to play</string>
+    <string name="win_loss_draw_ratio">Wins: %1$d Draws: %2$d Losses: %3$d</string>
+    <string name="statistics">Statistics</string>
+    <string name="computer_action">Displays the computers throw</string>
+    <string name="player_action">Displays the players throw</string>
+    <string name="result">Result</string>
 </resources>
