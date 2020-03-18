@@ -7,7 +7,7 @@ import androidx.room.PrimaryKey
 import java.util.*
 
 @Entity(tableName = "match_table")
-data class Match(
+data class RPS(
 
     @ColumnInfo
     @DrawableRes val playerChoice: Int,

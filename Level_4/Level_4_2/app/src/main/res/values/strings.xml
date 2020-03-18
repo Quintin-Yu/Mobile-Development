@@ -15,4 +15,9 @@
     <string name="computer_action">Displays the computers throw</string>
     <string name="player_action">Displays the players throw</string>
     <string name="result">Result</string>
+
+    <string name="computerWin">Computer Wins!</string>
+    <string name="draw">Draw, boring...</string>
+    <string name="playerWins">Player Wins!</string>
+
 </resources>
