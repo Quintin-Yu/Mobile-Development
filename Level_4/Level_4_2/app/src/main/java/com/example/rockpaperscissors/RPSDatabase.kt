@@ -23,7 +23,6 @@ abstract class RPSDatabase : RoomDatabase() {
                             context.applicationContext,
                             RPSDatabase::class.java, DATABASE_NAME
                         )
-                            .allowMainThreadQueries()
                             .build()
                     }
                 }

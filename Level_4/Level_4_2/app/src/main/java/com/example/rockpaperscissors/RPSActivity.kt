@@ -11,8 +11,6 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import java.util.*
 
-const val HISTORY_REQUEST_CODE = 100
-
 class RPSActivity : AppCompatActivity() {
     private lateinit var rpsRepository: RPSRepository
     private val scope = CoroutineScope(Dispatchers.Main)

@@ -27,6 +27,14 @@
             android:background="?attr/selectableItemBackgroundBorderless"
             app:srcCompat="@drawable/ic_history_white_24dp" />
 
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RPS"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"
+            android:gravity="start|top"/>
     </androidx.appcompat.widget.Toolbar>
 
     <include
@@ -34,5 +42,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="?android:attr/actionBarSize" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
