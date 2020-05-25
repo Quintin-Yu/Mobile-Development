@@ -1,0 +1,2 @@
+rootProject.name='MyPersonalNotePad'
+include ':app'
