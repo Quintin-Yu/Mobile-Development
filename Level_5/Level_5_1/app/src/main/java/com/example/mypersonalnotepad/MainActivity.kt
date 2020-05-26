@@ -27,8 +27,9 @@ class MainActivity : AppCompatActivity() {
 
     private fun initViews(){
         fab.setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show()
+            val intent = Intent ( this, EditActivity::class.java)
+            intent.putExtra(EditActivity.EXTRA_NOTE, mainActivityViewModel.note.value)
+            startActivity(intent)
         }
     }
 
@@ -38,8 +39,8 @@ class MainActivity : AppCompatActivity() {
         mainActivityViewModel.note.observe(this, Observer { note ->
             if (note != null) {
                 tvTitle.text = note.title
-                tvDate.text = getString(R.string.last_updated, note.lastUpdated.toString())
-                tvInformation.text = note.text
+                tvLastUpdated.text = getString(R.string.last_updated, note.lastUpdated.toString())
+                tvNote.text = note.text
             }
         })
     }

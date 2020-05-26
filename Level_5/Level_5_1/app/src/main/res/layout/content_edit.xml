@@ -4,36 +4,39 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    android:padding="8dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="EditActivity"
+    tools:showIn="@layout/activity_edit">
 
     <EditText
         android:id="@+id/etTitle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Title"
-        app:layout_constraintStart_toStartOf="parent"
+        android:fontFamily="sans-serif"
+        android:inputType="text"
+        android:maxLines="1"
+        android:text="My Personal Notepad"
+        android:textIsSelectable="true"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/tilMainText"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="62dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/tilMainText"
+    <EditText
+        android:id="@+id/etNote"
         android:layout_width="0dp"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="top"
+        android:text="This is my note"
+        android:textIsSelectable="true"
+        android:textSize="14sp"
+        android:textStyle="normal"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_height="0dp"
-        app:layout_constraintHeight_percent="0.85"
-        app:layout_constraintTop_toBottomOf="@id/etTitle"
-        app:layout_constraintBottom_toBottomOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etTitle" />
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/etMainText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="hint" />
-    </com.google.android.material.textfield.TextInputLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

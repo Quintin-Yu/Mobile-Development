@@ -12,7 +12,7 @@ interface NoteDao {
     @Insert
     suspend fun insertNote(note: Note)
 
-    @Query("SELECT * FROM noteTable LIMIT 1")
+    @Query("SELECT * FROM Note LIMIT 1")
     fun getNotepad(): LiveData<Note?>
 
     @Update

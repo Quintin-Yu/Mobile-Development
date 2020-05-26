@@ -1,4 +1,4 @@
-package com.example.mypersonalnotepad
+package com.example.mypersonalnotepad.database
 
 import androidx.room.TypeConverter
 import java.util.*

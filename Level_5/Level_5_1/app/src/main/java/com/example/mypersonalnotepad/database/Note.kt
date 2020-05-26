@@ -7,14 +7,12 @@ import kotlinx.android.parcel.Parcelize
 import java.util.*
 
 @Parcelize
-@Entity(tableName = "noteTable")
+@Entity
 data class Note(
 
     var title: String,
     var lastUpdated: Date,
     var text: String,
-
-    @PrimaryKey(autoGenerate = true)
-    var id: Long?
+    @PrimaryKey var id : Long? = null
 
 ) : Parcelable
